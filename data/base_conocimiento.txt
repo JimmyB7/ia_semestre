@@ -1,0 +1,8 @@
+Un equipo caliente o con temperatura alta requiere revisar la ventilacion el disipador de calor y la pasta termica.
+Si la red o internet se caen con frecuencia verifique la configuracion DNS la direccion IP y los cables del router.
+Si no puede iniciar sesion o su cuenta esta bloqueada revise los permisos del usuario la clave y la autenticacion.
+Cuando una aplicacion esta lenta o congelada verifique el consumo de memoria RAM el uso de CPU y el disco duro.
+El error de resolucion DNS impide navegar en internet cambie los servidores DNS por los predeterminados de Google.
+Si el ventilador del computador hace ruido fuerte limpie el polvo acumulado y verifique que no haya obstrucciones.
+Las fallas de conexion a la base de datos se deben a credenciales incorrectas puertos bloqueados o servidor apagado.
+Si el sistema operativo presenta pantalla azul revise controladores recientes fallas en la RAM o errores de disco.
