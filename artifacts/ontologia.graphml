@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="rel" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="digito" />
+    <node id="cero" />
+    <node id="uno" />
+    <node id="dos" />
+    <node id="modelo_mlp" />
+    <node id="imagen" />
+    <node id="prediccion" />
+    <node id="prediccion_15" />
+    <node id="digito_5" />
+    <node id="imagen_15" />
+    <edge source="digito" target="cero">
+      <data key="d0">tiene_clase</data>
+    </edge>
+    <edge source="digito" target="uno">
+      <data key="d0">tiene_clase</data>
+    </edge>
+    <edge source="digito" target="dos">
+      <data key="d0">tiene_clase</data>
+    </edge>
+    <edge source="modelo_mlp" target="digito">
+      <data key="d0">reconoce</data>
+    </edge>
+    <edge source="modelo_mlp" target="prediccion">
+      <data key="d0">produce</data>
+    </edge>
+    <edge source="imagen" target="digito">
+      <data key="d0">representa</data>
+    </edge>
+    <edge source="prediccion" target="digito">
+      <data key="d0">asigna_clase</data>
+    </edge>
+    <edge source="prediccion_15" target="digito_5">
+      <data key="d0">asigna_clase</data>
+    </edge>
+    <edge source="imagen_15" target="prediccion_15">
+      <data key="d0">genera</data>
+    </edge>
+  </graph>
+</graphml>
